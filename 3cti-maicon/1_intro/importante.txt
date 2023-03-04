@@ -1,0 +1,6 @@
+//= atribuicao
+ //== comparacao simples
+ //=== comparacao indetica (tipo de valor)
+ 
+ //'' ela considera tudo texto
+ //"" considera variavel 
