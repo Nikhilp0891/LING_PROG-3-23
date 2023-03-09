@@ -17,15 +17,16 @@ if($idade > 18 && $cnh == true){
 } else{
 	echo 'nao pode dirigir, seu viado';
 }
- /**/
- if($idade >= 23 && $penalidade == true || $quitacao == true){
+/*exercicio
+ O MOTORISTA PODE TER PENALIDADE POREM CASO ESTEJA QUITADO, ELE PODERA REALIZAR (A CNH D)
+ */
+ if(($idade >= 23 && $penalidade == false)
+	 or ($idade >= 23 && $quitacao == true)){
 	echo '<hr>pode fazer a CNH D';
-} else{
+} else {
 	echo '<hr>Tem que ficar de maior pra fazer a CNH D';
 }
 
 
-/*exercicio
- O MOTORISTA PODE TER PENALIDADE POREM CASO ESTEJA QUITADO, ELE PODERA REALIZAR (A CNH D)
- */
+
  ?>
